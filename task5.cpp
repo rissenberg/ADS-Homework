@@ -144,12 +144,8 @@ int MinSpanTree(const ListGraph &graph) {
     }
 
     int result = 0;
-    for (auto i : d)
-    {
-        result += i;
-    }
-
-        
+    for (auto it : d)
+        result += it;
     return result;
 }
 
